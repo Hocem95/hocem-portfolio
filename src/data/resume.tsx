@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer & DevSecOps",
   summary:
     "Actuellement en fin d'année de master, je suis à la recheche d'un cdi en tant que développeur fullstack ou devops. J'ai une expérience de 2 ans en tant que développeur fullstack et 1 an en tant que devops. J'ai travaillé sur des projets variés allant de la création de site web à la mise en place de pipeline CI/CD.",
-  avatarUrl: "/me4.jpeg",
+  avatarUrl: "/me5.jpeg",
   skills: [
     "React",
     "Next.js",
