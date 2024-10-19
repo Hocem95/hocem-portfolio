@@ -187,7 +187,7 @@ export const DATA = {
       ],
       image: "",
       video:
-      "/streamzer.mp4"
+        "/streamzer.mp4"
     },
     {
       title: "Book Store",
@@ -206,6 +206,13 @@ export const DATA = {
         "Terraform",
         "Google Cloud (GCP)",
       ],
+      links: [
+        {
+          type: "Website",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "/bookexchange.jpg",
       video: "",
     },
@@ -215,7 +222,7 @@ export const DATA = {
       dates: "Avril 2023 - Mai 2023",
       active: true,
       description:
-      "Un site déployé sur le cloud à l'aide de terraform sur Google Cloud Platform.Key store est un site fictif de vente de keyblade de la série de jeux vidéo Kingdom Hearts. Le site permet de consulter les différentes keyblade, de les ajouter au panier et de passer commande.",
+        "Un site déployé sur le cloud à l'aide de terraform sur Google Cloud Platform.Key store est un site fictif de vente de keyblade de la série de jeux vidéo Kingdom Hearts. Le site permet de consulter les différentes keyblade, de les ajouter au panier et de passer commande.",
       technologies: [
         "ReactJS",
         "NODE.JS",
@@ -225,6 +232,12 @@ export const DATA = {
         "Firebase",
         "Terraform",
         "Google Cloud (GCP)",
+      ], links: [
+        {
+          type: "Website",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/keystore.jpg",
       video: "",
@@ -239,6 +252,13 @@ export const DATA = {
       technologies: [
         "Flutter",
         "Firebase (Realtime database)",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "",
       video: "pictionary.mp4",
@@ -255,6 +275,13 @@ export const DATA = {
         "Unity",
         "Visual Studio IDE",
         "Photoshop",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/bindingoftoyno.png",
       video:
