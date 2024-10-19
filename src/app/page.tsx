@@ -117,15 +117,15 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Mes Projets
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Jetez un œil à mes derniers projets
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  J&apos;ai travaillé sur une variété de projets, des sites web
+                  simples aux applications web complexes jusqu&apos;à leur infrastructure dans une vm ou dans un cloud. Voici quelques-uns de
+                  mes favoris.
                 </p>
               </div>
             </div>
@@ -161,17 +161,17 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Restons en contact
+                Restons connectés
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Envie d&apos;en savoir plus ? Ma messagerie est ouverte {" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
-                  pour quelconque discussion
+                  pour toute discussion
                 </Link>{" "}
-                je répondrais dès que possible.
+                je répondrai dès que possible.
               </p>
             </div>
           </BlurFade>

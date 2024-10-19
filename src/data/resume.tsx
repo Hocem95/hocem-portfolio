@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Hocem Boualleg",
   initials: "HB",
-  url: "https://dillion.io",
+  url: "https://www.linkedin.com/in/hocem-boualleg-3b1b64174/",
   location: "Paris, France",
   locationLink: "https://www.google.com/maps/place/paris",
   description:
@@ -162,7 +162,7 @@ export const DATA = {
       image: "",
       // Mettre l'intro de streamzer en vidéo
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "/dealart.mp4",
     },
     {
       title: "Streamzer",
@@ -190,12 +190,12 @@ export const DATA = {
       "/streamzer.mp4"
     },
     {
-      title: "Keys Store",
-      href: "https://magicui.design",
+      title: "Book Store",
+      href: "/",
       dates: "Avril 2023 - Mai 2023",
-      active: true,
+      active: false,
       description:
-        "Keys Store est une application web qui permet de gérer les échanges de livres entre utilisateurs. L'application permet de gérer les livres, les utilisateurs, les échanges et les demandes d'échanges.",
+        "Book Store est une application web qui permet de gérer les échanges de livres entre utilisateurs. L'application permet de gérer les livres, les utilisateurs, les échanges et les demandes d'échanges.",
       technologies: [
         "ReactJS",
         "NODE.JS",
@@ -206,24 +206,32 @@ export const DATA = {
         "Terraform",
         "Google Cloud (GCP)",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
+      image: "/bookexchange.jpg",
+      video: "",
+    },
+    {
+      title: "Keyblade Store",
+      href: "/",
+      dates: "Avril 2023 - Mai 2023",
+      active: true,
+      description:
+      "Un site déployé sur le cloud à l'aide de terraform sur Google Cloud Platform.Key store est un site fictif de vente de keyblade de la série de jeux vidéo Kingdom Hearts. Le site permet de consulter les différentes keyblade, de les ajouter au panier et de passer commande.",
+      technologies: [
+        "ReactJS",
+        "NODE.JS",
+        "MySQL",
+        "TailwindCSS",
+        "Flutter",
+        "Firebase",
+        "Terraform",
+        "Google Cloud (GCP)",
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/keystore.jpg",
+      video: "",
     },
     {
       title: "Pictionary mobile",
-      href: "https://llm.report",
+      href: "/",
       dates: "Aout 2023 - Septembre 2023",
       active: true,
       description:
@@ -232,24 +240,12 @@ export const DATA = {
         "Flutter",
         "Firebase (Realtime database)",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "pictionary.mp4",
     },
     {
       title: "Binding of Tonyo",
-      href: "https://automatic.chat",
+      href: "/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -260,16 +256,9 @@ export const DATA = {
         "Visual Studio IDE",
         "Photoshop",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
+      image: "/bindingoftoyno.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   // hackathons: [
